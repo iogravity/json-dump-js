@@ -1,5 +1,5 @@
-const axios = require('axios');
-class JsonDump {
+import axios from "axios";
+export default class JsonDump {
     constructor(secret) {
         this.secret = secret;
     }
