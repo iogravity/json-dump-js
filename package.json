@@ -4,12 +4,16 @@
   "description": " Json Dump is a powerful cloud-based JSON storage software that allows you to store, manage, and query JSON data easily. With Json Dump, you can store your JSON data over the cloud securely, and access it anytime, anywhere. Whether you need to store data for your web or mobile applications, Json Dump has got you covered.",
   "main": "index.js",
   "scripts": {
+    "build": "babel src -d dist",
     "test": "jest"
   },
   "keywords": [],
   "author": "Iogravity",
   "license": "MIT",
   "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
     "jest": "^29.5.0"
   },
   "dependencies": {
